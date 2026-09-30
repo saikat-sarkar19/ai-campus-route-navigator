@@ -1,0 +1,157 @@
+{
+  "nodes": {
+    "Entry Gate 1": {
+      "coordinates": [100, 100],
+      "is_cse": false,
+      "description": "Main West Entry Gate G1"
+    },
+    "Canteen": {
+      "coordinates": [120, 150],
+      "is_cse": false,
+      "description": "CU Technology Campus Canteen"
+    },
+    "Reception": {
+      "coordinates": [220, 180],
+      "is_cse": false,
+      "description": "Reception of Calcutta University"
+    },
+    "Power Area": {
+      "coordinates": [130, 260],
+      "is_cse": false,
+      "description": "Power Substation Area"
+    },
+    "Playground": {
+      "coordinates": [100, 500],
+      "is_cse": false,
+      "description": "Technology Campus Playground"
+    },
+    "Parking Area": {
+      "coordinates": [250, 550],
+      "is_cse": false,
+      "description": "Vehicle Parking Area"
+    },
+    "CRNN Centre": {
+      "coordinates": [270, 310],
+      "is_cse": false,
+      "description": "CRNN Centre for Nano Technology"
+    },
+    "Auditorium Hall": {
+      "coordinates": [380, 230],
+      "is_cse": false,
+      "description": "Campus Main Auditorium"
+    },
+    "Tower 2 Front Entry": {
+      "coordinates": [370, 420],
+      "is_cse": false,
+      "description": "Front Entrance to Tower 2 Building"
+    },
+    "Tower 2 Rear Entry": {
+      "coordinates": [430, 520],
+      "is_cse": false,
+      "description": "Rear Entrance to Tower 2 Building"
+    },
+    "CSE Laboratory": {
+      "coordinates": [410, 440],
+      "is_cse": true,
+      "description": "CSE Computing Lab (CSE Zone)"
+    },
+    "CSE_AKC Seminar Hall": {
+      "coordinates": [410, 360],
+      "is_cse": true,
+      "description": "AKC Seminar Hall (CSE Zone)"
+    },
+    "CSE_Reflxon Room": {
+      "coordinates": [340, 360],
+      "is_cse": true,
+      "description": "Reflxon Room (CSE Zone)"
+    },
+    "Lift Area": {
+      "coordinates": [440, 430],
+      "is_cse": false,
+      "description": "Tower 2 Central Lift Area Hub"
+    },
+    "S1": {
+      "coordinates": [480, 410],
+      "is_cse": false,
+      "description": "Security Station S1"
+    },
+    "Library": {
+      "coordinates": [570, 530],
+      "is_cse": false,
+      "description": "Campus Central Library"
+    },
+    "Garden Area": {
+      "coordinates": [550, 320],
+      "is_cse": false,
+      "description": "Central Technology Campus Garden Area"
+    },
+    "New Building 2": {
+      "coordinates": [580, 160],
+      "is_cse": false,
+      "description": "Workshop Building (New Building 2)"
+    },
+    "New Building 1": {
+      "coordinates": [720, 330],
+      "is_cse": false,
+      "description": "Regent & General Section (New Building 1)"
+    },
+    "Entry Gate 2": {
+      "coordinates": [780, 100],
+      "is_cse": false,
+      "description": "South-East Entry Gate G2"
+    },
+    "Gate 3": {
+      "coordinates": [780, 330],
+      "is_cse": false,
+      "description": "East Entry Gate G3 along College Street"
+    },
+    "Gate 4": {
+      "coordinates": [780, 550],
+      "is_cse": false,
+      "description": "North-East Entry Gate G4 along College Street"
+    }
+  },
+  "edges": [
+    {"from": "Entry Gate 1", "to": "Canteen", "weight": 40},
+    {"from": "Entry Gate 1", "to": "Reception", "weight": 60},
+    {"from": "Canteen", "to": "Reception", "weight": 35},
+    {"from": "Canteen", "to": "Power Area", "weight": 50},
+    {"from": "Reception", "to": "Power Area", "weight": 40},
+    {"from": "Reception", "to": "CRNN Centre", "weight": 70},
+    {"from": "Reception", "to": "Auditorium Hall", "weight": 90},
+    {"from": "Reception", "to": "Garden Area", "weight": 140},
+    {"from": "Power Area", "to": "CRNN Centre", "weight": 60},
+    {"from": "Power Area", "to": "Playground", "weight": 110},
+    {"from": "Playground", "to": "Parking Area", "weight": 50},
+    {"from": "Parking Area", "to": "Tower 2 Front Entry", "weight": 60},
+    {"from": "Parking Area", "to": "Tower 2 Rear Entry", "weight": 70},
+    {"from": "CRNN Centre", "to": "Auditorium Hall", "weight": 60},
+    {"from": "CRNN Centre", "to": "Tower 2 Front Entry", "weight": 80},
+    {"from": "Auditorium Hall", "to": "Tower 2 Front Entry", "weight": 70},
+    {"from": "Auditorium Hall", "to": "Garden Area", "weight": 100},
+    {"from": "Auditorium Hall", "to": "New Building 2", "weight": 110},
+    {"from": "Tower 2 Front Entry", "to": "Lift Area", "weight": 25},
+    {"from": "Tower 2 Rear Entry", "to": "Lift Area", "weight": 25},
+    {"from": "Tower 2 Rear Entry", "to": "Library", "weight": 40},
+    {"from": "Lift Area", "to": "S1", "weight": 15},
+    {"from": "Lift Area", "to": "Library", "weight": 35},
+    {"from": "Lift Area", "to": "Garden Area", "weight": 70},
+    {"from": "Lift Area", "to": "CSE Laboratory", "weight": 15},
+    {"from": "Lift Area", "to": "CSE_AKC Seminar Hall", "weight": 20},
+    {"from": "Lift Area", "to": "CSE_Reflxon Room", "weight": 20},
+    {"from": "CSE Laboratory", "to": "CSE_AKC Seminar Hall", "weight": 25},
+    {"from": "CSE Laboratory", "to": "CSE_Reflxon Room", "weight": 30},
+    {"from": "CSE_AKC Seminar Hall", "to": "CSE_Reflxon Room", "weight": 20},
+    {"from": "S1", "to": "Garden Area", "weight": 45},
+    {"from": "Library", "to": "Garden Area", "weight": 75},
+    {"from": "Library", "to": "Gate 4", "weight": 90},
+    {"from": "Garden Area", "to": "New Building 1", "weight": 80},
+    {"from": "Garden Area", "to": "New Building 2", "weight": 90},
+    {"from": "New Building 2", "to": "New Building 1", "weight": 70},
+    {"from": "New Building 2", "to": "Entry Gate 2", "weight": 50},
+    {"from": "New Building 1", "to": "Gate 3", "weight": 40},
+    {"from": "New Building 1", "to": "Gate 4", "weight": 110},
+    {"from": "Entry Gate 2", "to": "Gate 3", "weight": 80},
+    {"from": "Gate 3", "to": "Gate 4", "weight": 100}
+  ]
+}

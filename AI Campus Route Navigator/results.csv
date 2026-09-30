@@ -1,0 +1,21 @@
+Route,Agent,Path,Cost,Nodes Explored,Time
+Reception -> Library,PATHFINDER,Reception -> Garden Area -> Library,215.0 m,3,0.000051 s
+Reception -> Library,ORBIT,Reception -> Garden Area -> Library,215.0 m,3,0.000025 s
+Canteen -> New Building 2,PATHFINDER,Canteen -> Reception -> Garden Area -> New Building 2,265.0 m,4,0.000063 s
+Canteen -> New Building 2,ORBIT,Canteen -> Reception -> Auditorium Hall -> New Building 2,235.0 m,4,0.000016 s
+Entry Gate 1 -> CSE Laboratory,PATHFINDER,Entry Gate 1 -> Reception -> Garden Area -> Lift Area -> Tower 2 Front Entry -> Lift Area -> CSE Laboratory,335.0 m,7,0.000041 s
+Entry Gate 1 -> CSE Laboratory,ORBIT,Entry Gate 1 -> Reception -> CRNN Centre -> Tower 2 Front Entry -> Lift Area -> CSE Laboratory,250.0 m,6,0.000027 s
+Auditorium Hall -> CSE_AKC Seminar Hall,PATHFINDER,Auditorium Hall -> Tower 2 Front Entry -> Lift Area -> CSE_AKC Seminar Hall,115.0 m,4,0.000022 s
+Auditorium Hall -> CSE_AKC Seminar Hall,ORBIT,Auditorium Hall -> Tower 2 Front Entry -> Lift Area -> CSE_AKC Seminar Hall,115.0 m,4,0.000020 s
+Library -> Canteen,PATHFINDER,Library -> Lift Area -> Tower 2 Front Entry -> CRNN Centre -> Reception -> Canteen,245.0 m,6,0.000028 s
+Library -> Canteen,ORBIT,Library -> Lift Area -> Tower 2 Front Entry -> CRNN Centre -> Power Area -> Canteen,250.0 m,6,0.000024 s
+CSE Laboratory -> Reception,PATHFINDER,CSE Laboratory -> Lift Area -> Tower 2 Front Entry -> CRNN Centre -> Reception,190.0 m,7,0.000026 s
+CSE Laboratory -> Reception,ORBIT,CSE Laboratory -> Lift Area -> Tower 2 Front Entry -> CRNN Centre -> Reception,190.0 m,7,0.000023 s
+Entry Gate 1 -> Entry Gate 2,PATHFINDER,Entry Gate 1 -> Reception -> Garden Area -> New Building 2 -> Entry Gate 2,340.0 m,5,0.000023 s
+Entry Gate 1 -> Entry Gate 2,ORBIT,Entry Gate 1 -> Reception -> Garden Area -> New Building 2 -> Entry Gate 2,340.0 m,5,0.000020 s
+Parking Area -> New Building 1,PATHFINDER,Parking Area -> Tower 2 Rear Entry -> Library -> Garden Area -> New Building 1,265.0 m,5,0.000022 s
+Parking Area -> New Building 1,ORBIT,Parking Area -> Tower 2 Rear Entry -> Library -> Garden Area -> New Building 1,265.0 m,5,0.000021 s
+CSE_Reflxon Room -> CSE Laboratory,PATHFINDER,CSE_Reflxon Room -> CSE Laboratory,30.0 m,2,0.000005 s
+CSE_Reflxon Room -> CSE Laboratory,ORBIT,CSE_Reflxon Room -> CSE Laboratory,30.0 m,2,0.000005 s
+Auditorium Hall -> Gate 4,PATHFINDER,Auditorium Hall -> Garden Area -> Library -> Gate 4,265.0 m,4,0.000019 s
+Auditorium Hall -> Gate 4,ORBIT,Auditorium Hall -> Garden Area -> Library -> Gate 4,265.0 m,4,0.000018 s
