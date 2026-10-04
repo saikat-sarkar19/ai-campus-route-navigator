@@ -798,4 +798,4 @@ The following terminal screenshots demonstrate live program execution:
 
 - **Institution**: University of Calcutta (Technology Campus)
 
-- **Author**: Aritra Chakraborty ([@saikat-sarkar19](https://github.com/saikat-sarkar19))
+- **Author**: Saikat sarkar ([@saikat-sarkar19](https://github.com/saikat-sarkar19))
